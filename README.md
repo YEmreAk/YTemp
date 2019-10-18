@@ -8,3 +8,13 @@ description: "Şimdilik notlar \U0001F4D6 YWiki üzerinde derlenecektir."
 
 {% file src=".gitbook/assets/test3.pdf" %}
 
+{% hint style="info" %}
+İpucu
+{% endhint %}
+
+
+
+{% page-ref page="ozel-karakterli-sayfa/" %}
+
+
+
