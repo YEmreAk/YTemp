@@ -10,3 +10,5 @@ description: "Şimdilik notlar \U0001F4D6 YWiki üzerinde derlenecektir."
 
 {% embed url="./test.pdf" caption="" %}
 
+{% embed url="file:///./test.pdf" caption="" %}
+
