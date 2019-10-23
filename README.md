@@ -2,9 +2,7 @@
 description: "Şimdilik notlar \U0001F4D6 YWiki üzerinde derlenecektir."
 ---
 
-# 📈 Üretkenlik
-
-
+# 🧪 Test
 
 {% file src=".gitbook/assets/test.pdf" %}
 
@@ -14,18 +12,13 @@ description: "Şimdilik notlar \U0001F4D6 YWiki üzerinde derlenecektir."
 İpucu
 {% endhint %}
 
-{% embed url="https://afozbek.gihub.io" %}
+{% embed url="https://afozbek.gihub.io" caption="" %}
 
-{% embed url="https://ai.yemreak.com" %}
+{% embed url="https://ai.yemreak.com" caption="" %}
 
-{% embed url="https://www.youtube.com/watch?v=EK32jo7i5LQ" %}
+{% embed url="https://www.youtube.com/watch?v=EK32jo7i5LQ" caption="" %}
 
-{% embed url="https://github.com/yedhrab/JavaProjects" %}
-
-
-
+{% embed url="https://github.com/yedhrab/JavaProjects" caption="" %}
 
 {% page-ref page="ozel-karakterli-sayfa/" %}
-
-
 
