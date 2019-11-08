@@ -1,6 +1,6 @@
 # Task affinities
 
-😁 
+😁 $$a = b$$ 🍉 
 
 Task affinities indicate which task an `Activity` prefers to belong to when that `Activity` instance is launched. By default each `Activity` belongs to the app that launched it. An `Activity` from outside an app launched with an implicit `Intent` belongs to the app that sent the implicit `Intent`.
 
