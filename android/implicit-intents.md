@@ -1,6 +1,6 @@
 # Implicit intents
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image-2.png)
 
 ## Create implicit Intent objects
 
@@ -28,7 +28,7 @@ if (sendIntent.resolveActivity(getPackageManager()) != null) {
 
 ### App Chooser
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image-3.png)
 
 ## Receiving an implicit Intent
 
@@ -118,9 +118,9 @@ ShareCompat.IntentBuilder
 Bu yapı **Android Launch Modes** ile değiştirilebilmektedir.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image-4.png)
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image-5.png)
 
 ## Activity launch modes
 
@@ -157,7 +157,7 @@ Bu yapı **Android Launch Modes** ile değiştirilebilmektedir.
 | :--- | :--- | :--- |
 | [`FLAG_ACTIVITY_NEW_TASK`](https://developer.android.com/reference/android/content/Intent.html#FLAG_ACTIVITY_NEW_TASK) | `singleTask` | İşlem için var olan Activity'i kullanır |
 | [`FLAG_ACTIVITY_SINGLE_TOP`](https://developer.android.com/reference/android/content/Intent.html#FLAG_ACTIVITY_SINGLE_TOP) | `singleTop` | Activity, stack'te en tepede ise yeni işlerde yeni activity oluşturulmaz |
-|   [`FLAG_ACTIVITY_CLEAR_TOP`](https://developer.android.com/reference/android/content/Intent.html#FLAG_ACTIVITY_CLEAR_TOP) |  | Eğer activity stack'te varsa, onu tepeye alıp, üstündeki her activity'i `destroy` eder. FLAG\_ACTIVITY\_NEW\_TASK ile kullanılırsa activity işlemlerini ön plana taşır |
+| [`FLAG_ACTIVITY_CLEAR_TOP`](https://developer.android.com/reference/android/content/Intent.html#FLAG_ACTIVITY_CLEAR_TOP) |  | Eğer activity stack'te varsa, onu tepeye alıp, üstündeki her activity'i `destroy` eder. FLAG\_ACTIVITY\_NEW\_TASK ile kullanılırsa activity işlemlerini ön plana taşır |
 
 ### Handle a new Intent
 
@@ -173,6 +173,4 @@ public void onNewIntent(Intent intent) {
     setIntent(intent); 
 }
 ```
-
-
 

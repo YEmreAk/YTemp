@@ -140,8 +140,6 @@ public void onActivityResult(int requestCode, int resultCode,  Intent data) {
 }
 ```
 
-
-
 ## 🏹 Activity Navigation
 
 ### Back navigation, tasks, and the back stack
@@ -166,7 +164,7 @@ public void onActivityResult(int requestCode, int resultCode,  Intent data) {
             <category android:name="android.intent.category.LAUNCHER" />
        </intent-filter>
     </activity>
-    
+
     <!-- The child activity) -->
     <activity android:name=".SecondActivity"
        android:label = "Second Activity"
@@ -181,26 +179,4 @@ public void onActivityResult(int requestCode, int resultCode,  Intent data) {
 {% hint style="info" %}
 To support older versions of Android, include `<meta-data>` information to define the parent `Activity` explicitly
 {% endhint %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
