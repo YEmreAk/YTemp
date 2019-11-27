@@ -8,4 +8,4 @@
 * Servo DC fırçalı motor
 * Gömülü programlama
 
-$Esma_{fail_possibility} \leq Yunus_{fail possibility}$
+$$ Esma_{fail_possibility} \leq Yunus_{fail possibility} $$
