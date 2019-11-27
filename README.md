@@ -8,4 +8,11 @@
 * Servo DC fırçalı motor
 * Gömülü programlama
 
-$$ Esma_{fail_possibility} \leq Yunus_{fail possibility} $$
+$$Esma_{fail_possibility} \leq Yunus_{fail possibility}$$
+
+
+
+$$
+a ^2 + 3^b \leq c^2
+$$
+
