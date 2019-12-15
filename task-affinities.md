@@ -1,4 +1,4 @@
-# Task affinities
+# 🙄 Her şey Türkçe
 
 😁 $$a = b$$ 🍉 
 
